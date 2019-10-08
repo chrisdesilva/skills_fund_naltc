@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import ebook from '../images/WomanClimber_color.png'
-import { schoolName,skfURL } from '../constants/programInfo'
+import ebook from '../images/WomanClimber_Color.png'
+import { schoolName, skfURL } from '../constants/programInfo'
 
 const LeadCaptureForm = props => {
 
