@@ -4,7 +4,7 @@ import { applicationsLive, headline, nextCohortStartDate, schoolName } from '../
 
 const Banner = props => {
     return (
-    <div className='flex flex-col justify-center items-center relative z-0 bg-purple-150' id='banner'>
+    <div className='flex flex-col justify-center items-center relative z-0 border-primary border-b-8' id='banner'>
         {/* update h2 caps words with school-specific content */}
         <h1 className='text-3xl lg:text-4xl font-normal text-center mt-8 text-black px-4'>{applicationsLive ? headline : `Applications for ${schoolName}'s next cohort will be available beginning ${nextCohortStartDate}`}</h1>
         {applicationsLive && <h2 className='text-base lg:text-xl font-light text-center text-black'>Know exactly what you'll pay with Skills Fund</h2>}
