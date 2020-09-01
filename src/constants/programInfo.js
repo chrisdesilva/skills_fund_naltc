@@ -1,7 +1,7 @@
 import logo from "../images/logo_naltc.png" // add school logo to images folder and import here
 
 export const applicationsLive = false // set to false if not currently accepting applications
-export const disabledLoanAppFormID = "69140c47-bb03-4a1b-b674-cc136fdea23d" // Hubspot ID for all disabled apply now lead captures
+export const disabledLoanAppFormID = "c838ccb2-a844-4e7f-b90a-f7815a5f7967" // Hubspot ID for all disabled apply now lead captures
 export const nextCohortStartDate = "October 8, 2020"
 
 // ***** BEGIN TERMS AND FAQ INFO *****
